@@ -461,3 +461,105 @@
 //        System.out.println("The toggled value of isOn is: " + isOn);  // Output: true
 //    }
 //}
+
+//import java.util.Scanner;
+//
+//public class BitwiseOperatorsDemo {
+//    public static void main(String[] args) {
+//        // Step 1: User se input lena
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Enter first integer: ");
+//        int num1 = sc.nextInt();  // First number input
+//        System.out.print("Enter second integer: ");
+//        int num2 = sc.nextInt();  // Second number input
+//
+//        // Step 2: Bitwise operations perform karna
+//        int andResult = num1 & num2;   // Bitwise AND
+//        int orResult = num1 | num2;    // Bitwise OR
+//        int xorResult = num1 ^ num2;   // Bitwise XOR
+//
+//        // Step 3: Results print karna
+//        System.out.println("Bitwise AND result: " + andResult);
+//        System.out.println("Bitwise OR result: " + orResult);
+//        System.out.println("Bitwise XOR result: " + xorResult);
+//    }
+//}
+//
+//import java.util.Scanner;
+//
+//public class BitwiseShiftOperations {
+//    public static void main(String[] args) {
+//        // Step 1: User se input lena
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Enter an integer: ");
+//        int num = sc.nextInt();  // Input integer
+//
+//        // Step 2: Left shift (Multiplying by 2)
+//        int leftShiftResult = num << 1;  // num * 2
+//
+//        // Step 3: Right shift (Dividing by 2)
+//        int rightShiftResult = num >> 1;  // num / 2
+//
+//        // Step 4: Results print karna
+//        System.out.println("Original number: " + num);
+//        System.out.println("After left shift (multiplied by 2): " + leftShiftResult);
+//        System.out.println("After right shift (divided by 2): " + rightShiftResult);
+//    }
+//}
+//
+//import java.util.Scanner;
+//
+//public class OddOrEven {
+//    public static void main(String[] args) {
+//        // Step 1: User se input lena
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Enter a number: ");
+//        int num = sc.nextInt();  // User se integer input lena
+//
+//        // Step 2: Bitwise AND operation se odd ya even check karna
+//        if ((num & 1) == 0) {
+//            // Agar (num & 1) ka result 0 hai toh number even hai
+//            System.out.println(num + " is an even number.");
+//        } else {
+//            // Agar (num & 1) ka result 1 hai toh number odd hai
+//            System.out.println(num + " is an odd number.");
+//        }
+//    }
+//}
+//
+//import java.util.Scanner;
+//
+//public class MinOfTwoNumbers {
+//    public static void main(String[] args) {
+//        // Step 1: User se do numbers input karna
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Enter the first number: ");
+//        int num1 = sc.nextInt();  // Pehla number input lena
+//
+//        System.out.print("Enter the second number: ");
+//        int num2 = sc.nextInt();  // Dusra number input lena
+//
+//        // Step 2: Ternary operator se minimum find karna
+//        int min = (num1 < num2) ? num1 : num2;  // Agar num1 < num2 toh min = num1, warna min = num2
+//
+//        // Step 3: Minimum number print karna
+//        System.out.println("The minimum number is: " + min);
+//    }
+//}
+//
+//import java.util.Scanner;
+//
+//public class PassOrFail {
+//    public static void main(String[] args) {
+//        // Step 1: User se marks input karna
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Enter your marks: ");
+//        int marks = sc.nextInt();  // Student ke marks input lena
+//
+//        // Step 2: Ternary operator ka use karke pass ya fail check karna
+//        String result = (marks >= 50) ? "Pass" : "Fail";  // Agar marks >= 50 hain toh Pass, warna Fail
+//
+//        // Step 3: Result print karna
+//        System.out.println("You have " + result + "ed.");
+//    }
+//}
